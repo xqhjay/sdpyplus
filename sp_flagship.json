@@ -1,0 +1,63 @@
+{
+ "name": "旗舰终版",
+ "fmap": {
+  "iu": "T",
+  "ua": "D",
+  "ie": "R",
+  "uan": "F",
+  "ang": "Y",
+  "iao": "B",
+  "ou": "S",
+  "ao": "P",
+  "eng": "M",
+  "uai": "T",
+  "ing": "D",
+  "ong": "K",
+  "iong": "K",
+  "an": "N",
+  "en": "J",
+  "ia": "X",
+  "ai": "H",
+  "ue": "J",
+  "un": "V",
+  "iang": "L",
+  "uang": "G",
+  "in": "C",
+  "ü": "X",
+  "ui": "L",
+  "üe": "Z",
+  "ian": "G",
+  "ei": "W",
+  "uo": "O"
+ },
+ "zh": {
+  "zh": "E",
+  "ch": "V",
+  "sh": "A"
+ },
+ "zero": {
+  "a": "IG",
+  "ai": "IS",
+  "an": "ID",
+  "ang": "IV",
+  "ao": "OG",
+  "o": "IP",
+  "ou": "UF",
+  "e": "OD",
+  "ei": "UA",
+  "en": "OA",
+  "eng": "IX",
+  "er": "AK"
+ },
+ "scheme": "EVAXHWLPSTRZJNJCVYMDKXBGLKDTFGOIGISIDIVOGIPUFODUAOAIXAK",
+ "metrics": {
+  "d1": 12.784529563316022,
+  "d2": 13.660434790363162,
+  "alt": 0.6084715764942844,
+  "collide": [],
+  "down": 0.180199560240325,
+  "mid": 0.4103774572308497,
+  "up": 0.4094229825288253,
+  "pinky": 0.11644306107825118
+ }
+}
