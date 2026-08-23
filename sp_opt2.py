@@ -131,7 +131,10 @@ def sa(seed, iters, init=None):
             elif len(key2f[t]) == 2:                   # 与目标键上的韵母交换
                 f2 = key2f[t][rng.randrange(2)]
                 f3 = [g for g in key2f[t] if g != f2][0]
-                oldmate = key2f[old][0] if len(key2f[old]) == 2 and key2f[old][0] != f else None
+                if len(key2f[old]) == 2:               # f 的旧搭档(修复: f 可能在首位)
+                    oldmate = key2f[old][0] if key2f[old][0] != f else key2f[old][1]
+                else:
+                    oldmate = None
                 if coll[f][f3] == 0 and (oldmate is None or coll[f2][oldmate] == 0):
                     yun[f] = t; yun[f2] = old
                     key2f[old].remove(f); key2f[old].append(f2)
